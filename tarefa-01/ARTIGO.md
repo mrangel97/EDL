@@ -1,18 +1,18 @@
-<h1>Linguagem C++</h1>
+<h1><center>Linguagem C++</center></h1>
 
 <h2>1.Origem e Influência</h2>
 
-<h2>2.Classificação:</h2>
+ <h2>2.Classificação:</h2>
 
-<h3>2.1.Alto Nível</h3>
+   <h3>2.1.Alto Nível</h3>
 
-<h3>2.2.Paradigma Orientada a Objetos</h3>
+   <h3>2.2.Paradigma Orientada a Objetos</h3>
 
-<h3>2.3.Estática</h3>
+   <h3>2.3.Estática</h3>
 
 <h2>3.Expressividade:</h2>
 
-<h3>3.1.Sobrecarga de Métodos</h3>
+   <h3>3.1.Sobrecarga de Métodos</h3>
 
 <h2>4.Códigos Representativos</h2>
 
@@ -39,28 +39,28 @@
 
 <h2>2.Classificação</h2>
 
-<h3>2.1.Alto Nível</h3>
+   <h3>2.1.Alto Nível</h3>
 
 <p>São linguagens voltadas para o ser humano. Em geral utilizam sintaxe mais estruturada, tornando o seu código mais fácil de entender.</p>
 
 <p>São linguagens independentes de arquitetura.</p>
-
-  *Um programa escrito em uma linguagem de alto nível, pode ser migrado de uma máquina a outra sem nenhum tipo de problema.
-
+<ul>
+  <li>Um programa escrito em uma linguagem de alto nível, pode ser migrado de uma máquina a outra sem nenhum tipo de problema.</li>
+</ul>
 <p>Permitem ao programador se esquecer completamente do funcionamento interno da máquina.</p>
-
-  *Sendo necessário um tradutor que entenda o código fonte e as características da máquina.
-
+<ul>
+  <li>Sendo necessário um tradutor que entenda o código fonte e as características da máquina.</li>
+</ul>
 <p>Vantagens:</p>
+<ul>
+  <li>Por serem compiladas ou interpretadas, têm maior portabilidade, podendo ser executados em várias plataformas com pouquíssimas modificações.</li>
 
-  *Por serem compiladas ou interpretadas, têm maior portabilidade, podendo ser executados em várias plataformas com pouquíssimas modificações.
-
-  *Em geral, a programação é mais fácil.
-
+  <li>Em geral, a programação é mais fácil.</li>
+</ul>
 <p>Desvantagens:</p>
-
-  *Em geral, as rotinas geradas (em linguagem de máquina) são mais genéricas e, portanto, mais complexas e por isso são mais lentas e ocupam mais memória.
-
+<ul>
+  <li>Em geral, as rotinas geradas (em linguagem de máquina) são mais genéricas e, portanto, mais complexas e por isso são mais lentas e ocupam mais memória.</li>
+</ul>
 <h3>2.2.Paradigma Orientado a Objetos</h3>
 
 <p>Tratam os elementos e conceitos associados ao problema como objetos;</p>
@@ -68,13 +68,13 @@
 <p>Objetos são entidades abstratas que embutem dentro de suas fronteiras, as características e operações relacionadas com a entidade real;</p>
 
 <p>Sugere a diminuição da distância entre a modelagem computacional e o mundo real:</p>
+<ul>
+  <li>O ser humano se relaciona com o mundo através de conceitos de objetos;</li>
 
-  *O ser humano se relaciona com o mundo através de conceitos de objetos;
+  <li>Estamos sempre identificando qualquer objeto ao nosso redor;</li>
 
-  *Estamos sempre identificando qualquer objeto ao nosso redor;
-
-  *Para isso lhe damos nomes, e de acordo com suas características lhes classificamos em grupos;
-
+  <li>Para isso lhe damos nomes, e de acordo com suas características lhes classificamos em grupos;</li>
+</ul>
 <p>Sistemas são vistos como coleções de objetos que se comunicam, enviando mensagens, colaborando para dar o comportamento global dos sistemas.</p>
 
 <p>Uma aplicação é estruturada em módulos (classes) que agrupam um estado (atributos) e operações (métodos) sobre este</p>
@@ -84,19 +84,19 @@
 <p>A orientação a objetos permite que classes possam “herdar” as características e métodos de outra classe para expandi-la ou especializá-la de alguma forma.</p>
 
 <p>Vantagens:</p>
+<ul>
+  <li>Organização do código;</li>
 
-  *Organização do código;
+  <li>Aumenta a reutilização de código;</li>
 
-  *Aumenta a reutilização de código;
+  <li>Reduz tempo de manutenção de código;</li>
 
-  *Reduz tempo de manutenção de código;
-
-  *Ampla utilização comercial;
-
+  <li>Ampla utilização comercial;</li>
+</ul>
 <p>Desvantagens:</p>
-
-  *Menos eficientes;
-
+<ul>
+  <li>Menos eficientes;</li>
+</ul>
 <p>Exemplo:</p>
 
      class Circle { // classname
@@ -109,7 +109,7 @@
       }
 
 <h3>2.3.Estática</h3>
-<p>A definição básica da tipagem estática que uma linguagem de programação pode ter como característica é que há uma verificação dos tipos usados em dados e variáveis para garantir que sempre está sendo usado um tipo que é esperado em todas as situações. Esta verificação é feita no código fonte pelo processo de compilação. Esta análise ajuda na chamada segurança de tipos na utilização dos dados pelo programa permitindo que o programador se preocupe menos com esta questão. O compilador fornece garantias que alguns problemas não poderão ocorrer após o programa passar por esta verificação, ou seja, erros são detectados logo, antes do programa ser efeticamente executado.</p>
+  <p>A definição básica da tipagem estática que uma linguagem de programação pode ter como característica é que há uma verificação dos tipos usados em dados e variáveis para garantir que sempre está sendo usado um tipo que é esperado em todas as situações. Esta verificação é feita no código fonte pelo processo de compilação. Esta análise ajuda na chamada segurança de tipos na utilização dos dados pelo programa permitindo que o programador se preocupe menos com esta questão. O compilador fornece garantias que alguns problemas não poderão ocorrer após o programa passar por esta verificação, ou seja, erros são detectados logo, antes do programa ser efeticamente executado.</p>
 
 <p>Uma variável não pode mudar seu tipo.</p>
 
@@ -123,22 +123,22 @@
       sum = sum + num;
 
 <p>Alguns dos mais conhecidos programas são feitos em C++, ou parte dos seus códigos são nessa linguagem.Alguns deles são:</p>
+<ul>
+  <li>Adobe Photoshop;</li>
 
-    *Adobe Photoshop;
+  <li>MySQL;</li>
 
-    *MySQL;
+  <li>Mozilla Firefox;</li>
 
-    *Mozilla Firefox;
+  <li>Internet Explorer;</li>
 
-    *Internet Explorer;
-
-    *Microsoft Windows,etc.
-
+  <li>Microsoft Windows,etc.</li>
+</ul>
 <h2>3.Expressividade</h2>
 
-<h3>3.1.Sobrecarga de Métodos</h3>
+  <h3>3.1.Sobrecarga de Métodos</h3>
 
-<p>Sobrecarga de método permite a existência de vários métodos de mesmo nome, porém com assinaturas levemente diferentes ou seja variando no número,tipo de argumentos ,no valor de retorno e até variáveis diferentes. Ficará a cargo do compilador escolher de acordo com as listas de argumentos os procedimentos ou métodos a serem executados.</p>
+   <p>Sobrecarga de método permite a existência de vários métodos de mesmo nome, porém com assinaturas levemente diferentes ou seja variando no número,tipo de argumentos ,no valor de retorno e até variáveis diferentes. Ficará a cargo do compilador escolher de acordo com as listas de argumentos os procedimentos ou métodos a serem executados.</p>
 
 <p>Exemplo:</p>
 
@@ -182,7 +182,7 @@
 
 <h3>Comparações:</h3>
 
-   *C
+   <h4>C</h4>
 
        #include<stdio.h>
        int main()
@@ -190,7 +190,7 @@
           printf(“Olá Mundo!\n!”);
        }
 
-  *C++
+  <h4>C++</h4>
 
       #include<iostream>
       int main()
@@ -198,7 +198,7 @@
          std::cout<<“Olá Mundo!”<<"\n";
       }
 
-  *Python
+  <h4>Python</h4>
 
        print “Hello World”
 
